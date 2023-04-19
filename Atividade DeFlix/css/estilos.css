@@ -1,0 +1,134 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+:root{
+	--cor-fundo1:#000;
+	--cor-fundo2:#222643;
+	--cor-verde:#009748;
+	--cor-texto:#fff;
+	--nome-fonte:'Inter';
+}
+
+header{
+	background-color: var(--cor-fundo1);
+	text-align: center;
+	padding: 10px;
+}
+
+#inicio{
+	background-color: var(--cor-fundo1);
+	height:700px;
+}
+
+.container{
+	background-image: url(../imagens/fundo.png);
+	width: 1440px;
+	margin: 0 auto;
+	
+}
+
+.lateral_esquerda{
+	background-color: transparent;
+	width: 720px;
+	height: 700px;
+	padding-top: 100px;
+	text-align: center;
+}
+
+.titulo{
+	font-family: var(--nome-fonte);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height:34px;
+	text-align: center;
+	color: var(--cor-texto);
+}
+
+.botao_assine{
+	color: var(--cor-texto);
+	background-color: var(--cor-verde);
+	text-decoration: none;
+	font-family: var(--nome-fonte);
+	font-size: 16px;
+
+	display: block;
+	margin: 10px 40px;
+	padding: 16px;
+
+	border-radius: 10px;
+	text-align: center;
+}
+
+.assinar{
+	color: var(--cor-texto);
+	background-color: var(--cor-fundo1);
+	text-decoration: none;
+	font-family: var(--nome-fonte);
+	font-size: 16px;
+
+	display: block;
+	margin: 10px 40px;
+	padding: 16px;
+
+	border-radius: 10px;
+	border: 1px solid var(--cor-texto);
+	text-align: center;
+}
+.rodape{
+	font-family: var(--nome-fonte);
+	font-style: normal;
+	font-weight: 700px;
+	font-size: 12px;
+	line-height:34px;
+	text-align: center;
+	color: var(--cor-texto);
+}
+
+/SEÇÃO 2 - ASSISTA/
+
+#assista{
+	background-color: var(--cor-fundo2);
+	height: 700px;
+}
+
+.assista_esquerda{
+	padding-top: 100px;
+	background-color:var(--cor-fundo2);
+	height: 700px;
+	width: 720px;
+	float: left;
+	margin-left: 30px;
+	text-align: center;
+}
+
+.assista_direita{
+	background-color:var(--cor-fundo2);
+	width: 720px;
+	float: right ;
+	margin-right: 30px;
+	text-align: center;
+}
+
+.titulo2{
+	padding-top: 200px;
+	font-family: var(--nome-fonte);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height:34px;
+	text-align: center;
+	color: var(--cor-texto);
+}
+
+.rodape2{
+	font-family: var(--nome-fonte);
+	font-style: normal;
+	font-weight: 700px;
+	font-size: 15px;
+	line-height:34px;
+	text-align: center;
+	color: var(--cor-texto);
+}
